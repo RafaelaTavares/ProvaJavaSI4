@@ -3,8 +3,6 @@ package br.edu.univas.prova.frame;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
-import java.awt.GridBagLayout;
-import java.awt.TextArea;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -15,9 +13,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
-import javax.swing.JTextArea;
 import javax.swing.JTextField;
-import javax.swing.ScrollPaneConstants;
 
 public class Tela1 extends JFrame{
 
@@ -209,7 +205,7 @@ public class Tela1 extends JFrame{
 		};
 		
 		Object[] columnNames = {
-				"NOME", "CPF", "E-MAIL"
+				"Nome", "CPF", "E-mail"
 		};
 		
 		JTable table = new JTable(data, columnNames);
